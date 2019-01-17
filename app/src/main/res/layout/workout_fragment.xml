@@ -4,12 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <FrameLayout
+        android:id="@+id/workout_frame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/workout"
-        android:textSize="60sp"
-        android:textColor="@android:color/holo_red_light"
-        android:gravity="center"/>
+        android:layout_height="match_parent">
 
+    </FrameLayout>
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.chungus.big.the.thebigchungus;
+package com.chungus.big.the.thebigchungus.common;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -8,6 +8,11 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+
+import com.chungus.big.the.thebigchungus.R;
+import com.chungus.big.the.thebigchungus.activities.FoodFragment;
+import com.chungus.big.the.thebigchungus.activities.HabitsFragment;
+import com.chungus.big.the.thebigchungus.workout.WorkoutFragment;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 

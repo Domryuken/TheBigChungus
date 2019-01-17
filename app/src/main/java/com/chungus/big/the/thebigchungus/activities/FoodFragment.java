@@ -1,4 +1,4 @@
-package com.chungus.big.the.thebigchungus;
+package com.chungus.big.the.thebigchungus.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,12 +7,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class WorkoutFragment extends Fragment {
+import com.chungus.big.the.thebigchungus.R;
+
+public class FoodFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View retView = inflater.inflate(R.layout.workout_fragment, container, false);
+        View retView = inflater.inflate(R.layout.food_fragment, container, false);
         return retView;
     }
 }

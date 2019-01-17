@@ -26,8 +26,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public boolean onNavigationItemSelected(MenuItem menuItem) {
+
         // set item as selected to persist highlight
         menuItem.setChecked(true);
+
         // close drawer when item is tapped
         mDrawerLayout.closeDrawers();
 
@@ -45,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     public void replaceFragment(Fragment destFragment){
+
         // First get FragmentManager object.
         FragmentManager fragmentManager = this.getSupportFragmentManager();
 
